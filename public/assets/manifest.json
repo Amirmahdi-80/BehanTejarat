@@ -1,0 +1,52 @@
+{
+  "name": "بهان تجارت آفرین",
+  "short_name": "بهان تجارت آفرین",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#0ebfff",
+  "theme_color": "#0ebfff",
+  "orientation": "portrait-primary",
+  "description": "اپلیکیشن بهان تجارت آفرین به مدیریت امیرحسین فلاحی، طراحی و توسعه یافته توسط امیرمهدی اسدی",
+  "screenshots": [
+    {
+      "src": "images/screenshots/Screenshot1.png",
+      "type": "image/png",
+      "sizes": "573x1222",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "images/screenshots/Screenshot2.png",
+      "type": "image/jpg",
+      "sizes": "2536x1351",
+      "form_factor": "wide"
+    }
+  ],
+  "icons": [
+    {
+      "src": "images/Logo72.png",
+      "type": "image/png", "sizes": "72x72"
+    },
+    {
+      "src": "images/Logo144.png",
+      "type": "image/png", "sizes": "144x144" ,
+      "set": "any"
+    },
+    {
+      "src": "images/Logo512.png",
+      "type": "image/png", "sizes": "512x512" ,
+      "set": "any"
+    },
+    {
+      "src": "images/Logo196.png",
+      "sizes": "196x196",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "images/Logo144.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

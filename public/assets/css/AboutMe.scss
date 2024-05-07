@@ -1,0 +1,427 @@
+$main-color: #0ebfff;
+
+// محل لینک دهی فونت ها
+@font-face {
+    font-family: 'koodak';
+    src: url("../fonts/KoodakBold.eot") format("eot"), url("../fonts/KoodakBold.ttf") format("truetype"), url("../fonts/KoodakBold.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Delmonte';
+    src: url("../fonts/Delmonte.otf") format("otf"), url("../fonts/Delmonte.ttf") format("ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Chin';
+    src: url("../fonts/Chin.ttf") format("ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'nazanin';
+    src: url("../fonts/Nazanin.eot") format("eot"), url("../fonts/Nazanin.ttf") format("truetype"), url("../fonts/Nazanin.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'yekan';
+    src: url("../fonts/Yekan.eot") format("eot"), url("../fonts/Yekan.ttf") format("truetype"), url("../fonts/Yekan.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Byekan';
+    src: url("../fonts/BYekan+.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Estedad';
+    src: url("../fonts/Estedad-Black.woff2") format("woff2"), url("../fonts/Estedad-Black.ttf") format("truetype"), url("../fonts/Estedad-Black.woff") format("woff");
+    ;
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'EstedadBold';
+    src: url("../fonts/Estedad-Bold.woff2") format("woff2"), url("../fonts/Estedad-Bold.ttf") format("truetype"), url("../fonts/Estedad-Bold.woff") format("woff");
+    ;
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'yekan';
+    src: url("../fonts/BYekan+.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'BahijZar';
+    src: url("../fonts/BahijZar.TTF");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ByekanBold';
+    src: url("../fonts/BYekan+Bold.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+.body2{
+    background: linear-gradient(180deg, rgba(0,21,31,1) 32%, rgba(0,212,255,1) 100%)
+}
+*{
+    color: #fff !important;
+}
+.footer{
+    background-color: #fff;
+    h4,p{
+        color: #333 !important;
+    }
+}
+.profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 40px;
+    img{
+        box-shadow: 0px 0px 15px 0px gray;
+        width: 40%;
+        height: fit-content;
+        border-radius: 50%;
+    }
+    h1{
+        border-bottom: 2px solid $main-color;
+        width: 30%;
+        padding-bottom: 10px;
+    }
+    h2{
+        margin-top: 10px;
+        font-size: 16px !important;
+    }
+    .Toz{
+        margin-top: 100px;
+        width: 90%;
+        height: fit-content;
+        span{
+            border-bottom: 2px dashed $main-color;
+            padding: 10px 25px;
+            text-align: right;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+    }
+    .To{
+        margin-top: 20px;
+        font-size: 14px;
+        text-align: justify;
+    }
+}
+.Items2 .o{
+    transition: .7s;
+    i{
+        transition: .7s;
+        color: #fff;
+    }
+    color: #fff !important;
+}
+.Items2 .o.active{
+    transition: .7s;
+    i{
+        transition: .7s;
+        color:#333 !important;
+    }
+    color: #333 !important;
+}
+.Items .o{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-right: 25px;
+}
+.Resume{
+    margin-top: 200px;
+    width: 40%;
+    border-radius: 15px;
+    border: 2px dashed $main-color;
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+}
+.Resume-downloadbox{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .Res{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100px;
+        height: 100px;
+        border-radius: 15px;
+        border: 3px dashed $main-color;
+        transition: .3s;
+        img{
+            box-shadow: 0px 0px 0px 0px;
+            width: 90% !important;
+            height: 90% !important;
+            border-radius: 0px;
+        }
+    }
+    .Res:hover{
+        transition: .3s;
+        background-color: $main-color;
+        box-shadow: 0px 0px 10px 0px $main-color;
+    }
+}
+.Resume-detail{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: start;
+    h4{
+        width: 40%;
+        margin: auto;
+        margin-top: 50px;
+        border-bottom: 2px solid $main-color;
+        padding-bottom: 10px;
+    }
+    span{
+        font-size: 14px;
+        width: 50%;
+        margin: auto;
+        margin-top: 50px;
+    }
+}
+.To2{
+    margin: 15px 25px;
+    font-size: 16px;
+    text-align: justify !important;
+    direction: ltr;
+    height: fit-content;
+}
+.back{
+    background: #333 !important;
+    border: 3px dashed $main-color !important;
+    box-shadow: 0px 2px 10px 0px  #333;
+    border: none;
+}
+.wrapper{
+    flex-wrap: wrap !important;
+    height: fit-content !important;
+}
+.fav{
+    height: fit-content !important;
+    margin: 15px;
+    border-radius: 25px;
+    .lock{
+        backdrop-filter: blur(20px);
+        border-radius: 25px !important;
+        height: 100%;
+    }
+    position: relative;
+    width: 400px !important;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    transition: .3s ease-in-out;
+    .info{
+        border-radius: 25px;
+        position: absolute;
+        z-index: 9997;
+        background-color: #33333361;
+        backdrop-filter: blur(5px);
+        visibility: hidden;
+        opacity: 0;
+        transition: .7s;
+        transform: translateY(10px);
+        bottom: 0px;
+        width: 400px !important;
+        border-bottom-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        cursor:cell;
+        p{
+            padding: 5px 15px !important;
+            text-align: justify !important;
+            font-size: 12px !important;
+            margin: 0px;
+            margin-top: 5px;
+        }
+        h4{
+            border-bottom: 2px solid $main-color;
+            text-align: center !important;
+            padding: 10px;
+        }
+    }
+}
+.fav:hover{
+    box-shadow: 0px 0px 10px 0px $main-color;
+    transition: .3s ease-in-out;
+    .info{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        visibility: visible;
+        opacity: 1;
+        transition: .7s;
+        transform: translateY(0px);
+        bottom: 0px;
+        width: fit-content;
+        p{
+            padding: 0px;
+        }
+        h4{
+            width: 50%;
+            padding-bottom: 5px;
+            margin-bottom: 0px;
+        }
+    }
+}
+.fav-pic{
+    height: fit-content !important;
+    aspect-ratio: 1 !important;
+    box-shadow: 0px 0px 0px 0px !important;
+    position: relative;
+    border-radius: 25px !important;
+    width: 400px !important;
+}
+.Emza{
+    p{
+        font-weight: bolder !important;
+        font-size: 20px;
+        font-family: 'BahijZar' !important;
+    }
+    background-color: #333;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    border: none;
+    filter: drop-shadow(0px 0px 10px #333);
+    height: 200px;
+    width: 40%;
+    border-radius: 15px;
+    margin-top: 75px;
+    img{
+        box-shadow: 0px 0px 0px 0px;
+        border-radius: 0px;
+    }
+}
+.lo{
+    visibility: hidden;
+    opacity: 0;
+    transform: translateX(-100px);
+    transition: .5s;
+}
+.lo.load{
+    visibility: visible;
+    opacity: 1;
+    transform: translateX(0px);
+    transition: .5s;
+}
+@media only screen and (max-width:768px){
+    .Emza{
+        flex-direction: column;
+        width: 70%;
+        margin-top: 20px;
+        p{
+            font-size: 14px;
+        }
+        img{
+            width: 80%;
+        }
+    }
+    .fav-pic{
+        width: 200px !important;
+    }
+    .fav{
+        width: 200px !important;
+        .info{
+            width: 200px !important;
+            height: 100%;
+            p{
+                overflow: auto !important;
+                font-size: 8px !important;
+            }
+            h4{
+                font-size: 10px;
+            }
+        }
+    }
+    .Toz{
+        span{
+            font-size: 14px;
+        }
+    }
+    .To{
+        font-size: 12px !important;
+    }
+    .To2{
+        margin: 15px 25px;
+        font-size: 12px;
+        text-align: left;
+        direction: ltr;
+        margin-top: 20px;
+    }
+    .Resume{
+        margin: 75px;
+        width: 80%;
+        height: 150px;
+        span{
+            font-size: 10px !important;
+            margin-top: 10px;
+        }
+        h4{
+            font-size: 14px;
+            width: 50%;
+            margin-top: 30px;
+        }
+        .Res{
+            width: 50%;
+            height: 50%;
+            border:2px dashed $main-color;
+        }
+        img{
+            width: 50px;
+            height: 50px;
+        }
+    }
+    .badge{
+        display:block !important;
+        text-align: center !important;
+        margin: 5px;
+    }
+}
