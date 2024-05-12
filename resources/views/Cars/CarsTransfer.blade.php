@@ -117,11 +117,11 @@
                     </div>
 
                     <!-- Pagination -->
-                    <div class="d-flex justify-content-between align-items-center mt-4">
-                        <a href="{{ $items->previousPageUrl() }}" class="btn btn-light">
+                    <div class="d-flex justify-content-between align-items-center mt-4" dir="ltr">
+                        <a href="{{ $items->previousPageUrl() }}" class="btn btn-dark">
                             <i class="material-icons">arrow_back</i> قبلی
                         </a>
-                        <a href="{{ $items->nextPageUrl() }}" class="btn btn-light">
+                        <a href="{{ $items->nextPageUrl() }}" class="btn btn-dark">
                             بعدی <i class="material-icons">arrow_forward</i>
                         </a>
                     </div>
