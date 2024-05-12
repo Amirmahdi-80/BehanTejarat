@@ -6,12 +6,30 @@
   <component name="ChangeListManager">
     <list default="true" id="363a5e98-db82-464b-9e34-215944d1057c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/Home.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/css/Home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/Home.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/css/Home.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/Home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/css/Home.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BehanTejarat.zip" beforeDir="false" afterPath="$PROJECT_DIR$/BehanTejarat.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/assets/css/Panel.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/css/Panel.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/assets/css/Panel.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/css/Panel.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/assets/css/Panel.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/css/Panel.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/Admin/Editusers.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Admin/Editusers.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/Cars/CarTransferShow.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Cars/CarTransferShow.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/Cars/Cars.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Cars/Cars.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/Cars/CarsAdd.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Cars/CarsAdd.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/Cars/CarsAdd2.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Cars/CarsAdd2.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/Cars/CarsCheckShow.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Cars/CarsCheckShow.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/Cars/CarsTransfer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Cars/CarsTransfer.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/Cars/search.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Cars/search.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/Products/Links.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Products/Links.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/Products/LinksAdd.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Products/LinksAdd.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/Products/LinksShow.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Products/LinksShow.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/Products/Out.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Products/Out.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/Products/OutAdd.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Products/OutAdd.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/Products/OutShow.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Products/OutShow.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/Products/Products.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Products/Products.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/Products/Vorud.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Products/Vorud.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/Products/VorudAdd.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Products/VorudAdd.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/Products/Vorudshow.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Products/Vorudshow.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/Avatars/TPq8G5udl5sxBnlqqOxzs673fvyY2utRPvSHLTDn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/Avatars/tvZKPR1J1sMKRbkBxEfHuT7yYCdziSaX3rmDrujn.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,28 +176,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;update1&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/xampp/htdocs/BehanTejarat&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/xampp/htdocs/BehanTejarat",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\BehanTejarat\database\migrations" />
@@ -314,7 +332,7 @@
       <workItem from="1715064288851" duration="5470000" />
       <workItem from="1715506397862" duration="327000" />
       <workItem from="1715508377834" duration="301000" />
-      <workItem from="1715508821771" duration="1447000" />
+      <workItem from="1715508821771" duration="9270000" />
     </task>
     <servers />
   </component>

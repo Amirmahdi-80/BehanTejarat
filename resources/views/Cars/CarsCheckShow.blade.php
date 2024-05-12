@@ -1,16 +1,20 @@
 <div>
     <!-- An unexamined life is not worth living. - Socrates -->
 </div>
+
 @extends('Admin.Panel')
-@section($title,'title')
+@section($title, 'title')
+
 @can('Cars')
     @section('ZPanel')
+        <!-- Car Check Form -->
         <div class="row overflow-auto">
             <div class="col-md-12">
                 <div class="panel panel-primary">
-                    <!-- panel body -->
+                    <!-- Panel Body -->
                     <div class="panel-body">
-                        @csrf
+                        @csrf <!-- CSRF Protection -->
+                        <!-- Form Open -->
                         @if(isset($item))
                             {{ html()->model($item)->form('PATCH', route('Admin.CarsCheck.update', $item->id))->open() }}
                         @else
@@ -18,6 +22,7 @@
                         @endif
                         <table class="table text-right table-borderless" dir="rtl">
                             <tbody>
+                            <!-- Car Details -->
                             <tr>
                                 <th scope="col">نام خودرو</th>
                                 <td>{{ html()->text('CarName')->class('form-control')->id('CarName')->isReadonly()->placeholder('ثبت نشده')}}</td>
@@ -54,6 +59,7 @@
                                 </td>
                                 @enderror
                             </tr>
+                            <!-- Check-in/Check-out Details -->
                             <tr>
                                 <th scope="col">کیلومتر خروج</th>
                                 <td>{{ html()->text('ExitDistance' . 'Km')->class('form-control')->id('ExitDistance')->isReadonly()->placeholder('ثبت نشده')}}</td>
@@ -63,6 +69,7 @@
                                 </td>
                                 @enderror
                             </tr>
+                            <!--  Time  -->
                             <tr>
                                 <th scope="col">ساعت خروج اول</th>
                                 <td>{{ html()->text('ExitTime1')->class('form-control')->id('ExitTime1')->isReadonly()->placeholder('ثبت نشده')}}</td>
@@ -135,6 +142,7 @@
                                 </td>
                                 @enderror
                             </tr>
+                            <!-- Enter kilometer -->
                             <tr>
                                 <th scope="col">کیلومتر ورود</th>
                                 <td>{{ html()->text('EnterDistance' . 'Km')->class('form-control')->id('EnterDistance')->isReadonly()->placeholder('ثبت نشده')}}</td>
@@ -144,13 +152,15 @@
                                 </td>
                                 @enderror
                             </tr>
+                            <!-- Form Submission Buttons -->
                             <tr>
-                                <td>
+                                <td colspan="2">
                                     <a href="{{url()->previous()}}" class="btn btn-danger">بازگشت</a>
                                 </td>
                             </tr>
                             </tbody>
                         </table>
+                        <!-- Form Close -->
                         {{ html()->form()->close() }}
                     </div>
                 </div>
@@ -158,4 +168,3 @@
         </div>
     @endsection
 @endcan
-

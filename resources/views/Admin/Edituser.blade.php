@@ -6,7 +6,7 @@
             <div class="col-md-12">
                 <div class="panel panel-primary">
                     <div class="panel-heading clearfix">
-                        <div class="panel-title">{{ $title }}</div>
+                        <div class="panel-title text-dark w-100 text-center">{{ $title }}</div>
                     </div>
                     <!-- panel body -->
                     <div class="panel-body mt-5">

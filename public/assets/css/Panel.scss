@@ -347,7 +347,6 @@ body {
     border-bottom-right-radius: 20px;
     font-size: 12px !important;
     margin-top: 0px;
-    overflow: auto !important;
     filter: blur(10px);
    
     th,
@@ -367,7 +366,6 @@ body {
     opacity: 1;
     transform: translateY(0px);
     transition: .7s;
-    overflow: auto;
 }
 
 form {
@@ -460,7 +458,6 @@ a {
 .table {
     margin-top: 0px !important;
     margin-bottom: 100px !important;
-    overflow: auto !important;
 }
 
 .panel-body {
@@ -890,7 +887,6 @@ button:focus {
     position: fixed !important;
     top: 80px;
 }
-
 @keyframes notif {
     from {
         background-color: #3333334f;
@@ -1031,7 +1027,6 @@ button:focus {
     }
 
     table {
-        overflow: auto !important;
         margin-top: 0px !important;
         border-radius: 0px !important;
         text-align: center !important;
