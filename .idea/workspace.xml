@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="363a5e98-db82-464b-9e34-215944d1057c" name="Changes" comment="" />
+    <list default="true" id="363a5e98-db82-464b-9e34-215944d1057c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/Home.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/css/Home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/Home.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/css/Home.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/Home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/css/Home.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/Panel.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/css/Panel.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/Panel.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/css/Panel.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/Panel.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/css/Panel.scss" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -155,7 +163,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;update1&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/xampp/htdocs/BehanTejarat&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -304,6 +312,9 @@
       <workItem from="1714892953654" duration="13701000" />
       <workItem from="1714977132484" duration="10624000" />
       <workItem from="1715064288851" duration="5470000" />
+      <workItem from="1715506397862" duration="327000" />
+      <workItem from="1715508377834" duration="301000" />
+      <workItem from="1715508821771" duration="1447000" />
     </task>
     <servers />
   </component>
